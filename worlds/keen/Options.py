@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from Options import PerGameCommonOptions, Choice, Range, Toggle
+from Options import PerGameCommonOptions, Choice, DeathLink, Range, Toggle
 
 class EpisodeSelect(Choice):
     """
@@ -106,3 +106,4 @@ class KeenOptions(PerGameCommonOptions):
     randomize_pogo: RandomizePogo
     randomize_stunner: RandomizeStunner
     randomize_wetsuit: RandomizeWetsuit
+    death_link: DeathLink

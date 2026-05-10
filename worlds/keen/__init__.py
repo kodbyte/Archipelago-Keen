@@ -192,4 +192,5 @@ class KeenWorld(World):
         return {
             "episode_select": self.options.episode_select.value,
             "enable_gemsets": self.options.enable_gemsets.value,
+            "death_link": self.options.death_link.value,
         }
